@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in your city!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <h1>Check your weather!</h1>
+    <div>
+        <h2 id="town"></h2>
+        <h2 id="temp"></h2>
+        <h2 id="feels"></h2>
+    </div>
+    <form id="searchForm">
+        <input type="text" placeholder="Your town" name="query"><br>
+        <button>Search</button>
+    </form>
+    <p>Recent searches:</p>
+    <ul>
+
+    </ul>
+    <script src="app.js"></script>
+</body>
+
+</html>

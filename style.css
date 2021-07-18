@@ -1,0 +1,63 @@
+body {
+    background-color: #cbf3f0;
+    font-family: 'Otomanopee One', sans-serif;
+    border: 2px solid #2ec4b6;
+    border-radius: 10px;
+    transition: 1s all
+}
+
+h1 {
+
+    color: #2ec4b6;
+    text-align: center;
+}
+
+div {
+    height: 150px;
+    text-align: center;
+    color: #ff9f1c;
+    margin-bottom: 0px;
+}
+
+div h2 {
+    margin: 0px;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    border: 2px solid #2ec4b6;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+button {
+    border: 2px solid #2ec4b6;
+    padding: 5px 5px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #2ec4b6;
+    margin-bottom: 5px;
+    background-color: rgb(232, 240, 254);
+    border-radius: 10px;
+}
+
+#main {
+    border: 2px solid #2ec4b6;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #2ec4b6;
+    text-align: center;
+    padding: 0px 0px;
+}
